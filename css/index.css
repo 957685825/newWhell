@@ -41,7 +41,7 @@ background-repeat: no-repeat;}
     left: 52%;
     margin-left: tr;
     transform: translateX(-50%);
-    top: 24px;
+    top: 23px;
 padding-bottom: 60px;}
 .dp-box>img,.zhizhen>img{width: 100%}
 .zhizhen{   
@@ -64,6 +64,7 @@ padding-bottom: 60px;}
     position: relative;
     left: 50%;
     margin-left: -136px;
+    padding-bottom: 100px;
 }
 .jl>p>span{color: #b61a21;}
 .jl>p{text-align: center;margin-top: 32px;}
@@ -189,3 +190,25 @@ li>span:nth-child(2){margin-left: 7vw}
 	height: 84px;
 	background-size: cover;
 }
+
+ 
+
+        
+/*  屏幕宽度小于640之间 */
+/* @media screen and (max-width: 640px){
+     .dp-box{
+		top: 20px
+	}
+} */
+/* 屏幕宽度在640-750之间 */
+/* @media screen and (min-width:641px) and (max-width: 750px){
+     .dp-box{
+		top: 23px
+	}
+} */
+/*  屏幕宽度大于750px */
+/* @media screen and (min-width: 750px){
+     .dp-box{
+		top: 25px
+	}
+} */
