@@ -152,19 +152,19 @@ $(function() {
 				rotateFunc(3, 115, 'qq钱包积分500');
 				break;
 			case 4:
-				rotateFunc(4, 160, 'qq黄钻会员一年');
+				rotateFunc(4, 160, '谢谢参与');
 				break;
 			case 5:
 				rotateFunc(5, 203, 'qq黄钻会员一年');
 				break;
 			case 6:
-				rotateFunc(6, 245, '谢谢参与');
+				rotateFunc(6, 245, 'ipad一部');
 				break;
 			case 7:
 				rotateFunc(7, 290, '谢谢参与');
 				break;
 			case 8:
-				rotateFunc(8, 340, '谢谢参与');
+				rotateFunc(8, 340, 'IphoneX 一部');
 				break;
 		}
 	}
