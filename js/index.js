@@ -99,14 +99,14 @@ var MyMarr1 = setInterval(Marqueer1, speedi) //设置定时器
 	// 滚动-end
 	// 中奖用户
 jp = {
-	'1': ["0", "0.1%加息券"],
-	'2': ["1", "0.2%加息券"],
-	'3': ["2", "0.3%加息券"],
+	'1': ["0", "谢谢参与"],
+	'2': ["1", "qq超级会员三个月"],
+	'3': ["2", "qq钱包积分500"],
 	'4': ["3", "谢谢参与"],
-	'5': ["4", "Iphone8"],
-	'6': ["5", "0.5元"],
-	'7': ["6", "0.1元"],
-	'8': ["7", "10元"],
+	'5': ["4", "qq黄钻会员一年"],
+	'6': ["5", "ipad一部"],
+	'7': ["6", "谢谢参与"],
+	'8': ["7", "IphoneX 一部"],
 };
 // $.jsonp({
 // 	type: "POST",
@@ -143,28 +143,28 @@ $(function() {
 		data = data[Math.floor(Math.random() * data.length)]; //1~8的随机数
 		switch (data) {
 			case 1:
-				rotateFunc(1, 25, '双季丰0.1%加息红包');
+				rotateFunc(1, 25, '谢谢参与');
 				break;
 			case 2:
-				rotateFunc(2, 70, '双季丰满减红包10元');
+				rotateFunc(2, 70, 'qq超级会员三个月');
 				break;
 			case 3:
-				rotateFunc(3, 115, '1元现金红包');
+				rotateFunc(3, 115, 'qq钱包积分500');
 				break;
 			case 4:
-				rotateFunc(4, 160, '财金币20枚');
+				rotateFunc(4, 160, 'qq黄钻会员一年');
 				break;
 			case 5:
-				rotateFunc(5, 203, '20元现金红包');
+				rotateFunc(5, 203, 'qq黄钻会员一年');
 				break;
 			case 6:
-				rotateFunc(6, 245, '双季丰0.5%加息红包');
+				rotateFunc(6, 245, '谢谢参与');
 				break;
 			case 7:
-				rotateFunc(7, 290, '双季丰满减红包50元');
+				rotateFunc(7, 290, '谢谢参与');
 				break;
 			case 8:
-				rotateFunc(8, 340, '5元现金红包');
+				rotateFunc(8, 340, '谢谢参与');
 				break;
 		}
 	}
@@ -216,7 +216,6 @@ $(function() {
 			animateTo: angle + 1440, //给定的角度,让它根据得出来的结果加上1440度旋转
 			callback: function() {
 				isture = false; // 标志为 执行完毕
-				alert(text);
 				$(".texts").html("恭喜您，已获得<br>" + text);
 					// console.log(text)
 				$(".zz").show();
