@@ -195,20 +195,20 @@ li>span:nth-child(2){margin-left: 7vw}
 
         
 /*  屏幕宽度小于640之间 */
-/* @media screen and (max-width: 640px){
+ @media screen and (max-width: 320px){
      .dp-box{
 		top: 20px
 	}
-} */
+} 
 /* 屏幕宽度在640-750之间 */
-/* @media screen and (min-width:641px) and (max-width: 750px){
+ @media screen and (min-width:321px) and (max-width: 375px){
      .dp-box{
 		top: 23px
 	}
-} */
+} 
 /*  屏幕宽度大于750px */
-/* @media screen and (min-width: 750px){
+ @media screen and (min-width: 376px){
      .dp-box{
 		top: 25px
 	}
-} */
+} 
