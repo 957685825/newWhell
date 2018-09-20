@@ -63,11 +63,10 @@ padding-bottom: 60px;}
     font-size: 15px;
     position: relative;
     left: 50%;
-    margin-left: -136px;
-    padding-bottom: 100px;
+    margin-left: -136px; top: -20px;
 }
 .jl>p>span{color: #b61a21;}
-.jl>p{text-align: center;margin-top: 32px;}
+.jl>p{text-align: center;}
 .jl>p>span{ width: 123px;height: 42px;background: url(../img/btn.png) no-repeat;background-size: 100%;       
 	display: block;
     text-align: center;
@@ -120,14 +119,9 @@ li>span:nth-child(2){margin-left: 7vw}
 .wcs-img,.tz-img,.zj-img{position: relative;width: 100%}
 .ok-img{position: absolute;width: 50%;bottom: 5vw;left: 25%}
 .texts{position: absolute;width: 80%;top: 5vw;left: 10%;text-align: center;color: #fff;line-height: 1.7;font-weight: bold;font-size: 4.5vw}
-.scroll-box {
-			width:690px;
-			height: 64px; 
-			margin:0 auto;
-			overflow:hidden;
-			background-color: rgba(60,63,140,0.7);
-			border-radius: 32px;
-			margin-top: 224px;
+.scroll-box { 
+			overflow:hidden; 
+
 		}
 .scroll-box{
     width: 90%;
@@ -135,6 +129,9 @@ li>span:nth-child(2){margin-left: 7vw}
     background: rgba(117,1,12,0.7);
     border-radius: 100px;
      margin: 0 auto; 
+     margin-bottom: 100px;
+     position: relative;
+     z-index: 1;
 }
 
 .scroll-box ul {
@@ -199,11 +196,18 @@ li>span:nth-child(2){margin-left: 7vw}
      .dp-box{
 		top: 20px
 	}
+	.zhizhen {
+	    margin-top: -88px;
+	}
 } 
 /* 屏幕宽度在640-750之间 */
  @media screen and (min-width:321px) and (max-width: 375px){
      .dp-box{
 		top: 23px
+	}
+	.zhizhen {
+	    margin-top: -88px;
+	    margin-left: -46px;
 	}
 } 
 /*  屏幕宽度大于750px */
